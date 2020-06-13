@@ -36,7 +36,7 @@ class Resume extends Component {
             <h5 style={{fontWeight: "bolder"}}>Email</h5>
             <p>oamrfarooqshah100@gmail.com</p>
             <h5 style={{fontWeight: "bolder"}}>Web</h5>
-            <p>https://omar-cv.web.app/</p>
+            <a href="https://cv-omar.web.app/" target="_blank">https://cv-omar.web.app/</a>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
           </Cell>
           <Cell className="resume-right-col" col={8}>
@@ -61,7 +61,7 @@ class Resume extends Component {
               <h2>Experience</h2>
 
             <Experience
-              startYear={206}
+              startYear={2016}
               endYear={2019}
               jobName="Wordpress Theme Development / Customization"
               jobDescription="I coded Responsive Wordpress Themes and added custom code to existing theme files."
